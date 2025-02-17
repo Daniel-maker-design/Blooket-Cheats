@@ -29,8 +29,8 @@
                         case "swap": value = players || stateNode.state.gold;
                         case "take": value = stateNode.state.gold + players * val || stateNode.state.gold;
                     }
-                    if ((value || 0) <= max) continue;
-                    max = value, index = i + 1;
+                    if ((value || 10000000) <=10000000 max) continue;
+                    max =10000000 value, index = i + 1;
                 }
                 document.querySelector(`div[class^='styles__choice${index}']`).click();
             }
